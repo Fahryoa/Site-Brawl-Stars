@@ -7,8 +7,12 @@ body {
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 1.4;
-    color: darkblue;
-    background-color: whitesmoke;
+    background-color: #E7E7E7;
+    color: #000000;
+}
+
+header, footer {
+    background-color: #C4C4C4;
 }
 
 img {
@@ -24,4 +28,33 @@ a {
 
 a:hover {
     color: darkmagenta;
+}
+
+main p, main h1 {
+    max-width: 75vw;
+    margin-left: 3vw;
+}
+
+.logo_burger {
+    max-width: 100px;
+    margin-left: 3vw;
+    margin-bottom: 8px;
+    border-radius: 24px;
+    text-align: center;
+    max-height: 20px;
+}
+
+.un {
+    color: #FF9101;
+    background-color: #FF9101;
+}
+
+.deux {
+    color: #FFA530;
+    background-color: #FFA530;
+}
+
+.trois {
+    color: #FFBE69;
+    background-color: #FFBE69;
 }
